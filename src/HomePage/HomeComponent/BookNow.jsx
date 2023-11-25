@@ -11,7 +11,7 @@ const BookNow = () => {
      </div>
  
       {/* Book from */}
-        <div className='drop-shadow-md shadow-[rgba(0,_0,_0,_0.2)_0px_30px_40px_-4px] p-8 rounded-xl'>
+        <div className='drop-shadow-md shadow-[rgba(0,_0,_0,_0.2)_0px_30px_40px_-4px] p-8 rounded-xl w-2/2'>
              <h3 className='text-3xl font-black'>Book Now</h3>
              <p className='pb-5 pt-2'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit</p>
 
@@ -22,13 +22,13 @@ const BookNow = () => {
     <input type="text" name="City" placeholder='Enter City' className="input bg-gray-100 w-full max-w-xs "/>
   </label>
 
-  <div className='flex font-medium mt-4'>
-  <label >
+  <div className='flex flex-col md:flex-row font-medium mt-4'>
+  <label className='py-2 '>
   Arrival <br />
     <input type="text" name="Arrival" placeholder='10 October' className="input bg-gray-100  max-w-xs"/>
   </label>
 
-  <label className='px-4'>
+  <label className='py-2  md:px-4'>
   Departure <br />
     <input type="text" name="Departure" placeholder='11 October' className="input bg-gray-100  max-w-xs"/>
   </label>

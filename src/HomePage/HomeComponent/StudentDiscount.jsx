@@ -6,7 +6,7 @@ const StudentDiscount = () => {
       
 
       {/* stu discount */}
-      <div>
+      <div className='mx-2'>
       <p className=" font-medium py-2">Student Tropical Vacation: Relax and Recharge</p>
         <h2 className=" text-4xl font-bold">
           Student discounts available. 

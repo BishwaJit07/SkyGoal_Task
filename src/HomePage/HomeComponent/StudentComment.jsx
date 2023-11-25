@@ -4,7 +4,7 @@ import stu3 from "../../assets/Webtaskresources/avatar3.png";
 
 const StudentComment = () => {
   return (
-    <div className="flex flex-col-reverse   md:flex-row  justify-evenly items-center  my-40">
+    <div className="flex flex-col-reverse   md:flex-row  justify-evenly items-center   my-40">
       {/* student comment */}
       <div className="ps-10 sm:mt-10">
         {/* comment 1  */}
@@ -17,7 +17,7 @@ const StudentComment = () => {
         </div>
 
         {/* comment 1  */}
-        <div className="flex items-center p-6 drop-shadow-md shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] mb-12 rounded-2xl   bg-base-100">
+        <div className="flex items-center p-6 drop-shadow-md shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] mb-12 mx-2 rounded-2xl   bg-base-100">
           <img src={stu2} alt="" className="w-20 h-20" />
           <div className="ps-10">
             <h3 className=" text-xl font-medium	">Jenny Wilson</h3>

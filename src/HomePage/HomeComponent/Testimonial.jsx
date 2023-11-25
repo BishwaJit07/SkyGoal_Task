@@ -31,7 +31,7 @@ const Testimonial = () => {
       </div>
 
 {/* card */}
-      <div className=" flex flex-col justify-center items-center text-center px-16">
+      <div className=" flex flex-col justify-center items-center text-center px-16 my-2">
         <img src={person1} alt="" />
 
         <h4>Jakob Aminoff</h4>
@@ -54,7 +54,7 @@ const Testimonial = () => {
       </div>
 
 {/* card */}
-      <div className=" flex flex-col justify-center items-center text-center">
+      <div className=" flex flex-col justify-center items-center text-center ">
         <img src={person2} alt="" />
 
         <h4>Carla Press</h4>

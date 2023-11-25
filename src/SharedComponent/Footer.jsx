@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 text-base-content">
+            <footer className="footer p-10 text-base-content flex flex-wrap justify-center">
   <nav>
     <header className=' text-base'>Privacy Policy</header> 
    
